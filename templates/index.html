@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DarGlobal & Wasalt | AI Luxury Real Estate Concierge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+  <!-- Markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Header / Navbar -->
+    <header class="header">
+      <div class="brand-group">
+        <div class="logo-mark">DG</div>
+        <div class="brand-text">
+          <div class="brand-title">DARGLOBAL <span class="brand-divider">×</span> WASALT</div>
+          <div class="brand-subtitle">AI Luxury Real Estate Concierge</div>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Model Selection Dropdown -->
+        <div class="model-select-wrapper">
+          <label for="modelSelect" class="sr-only">Model</label>
+          <select id="modelSelect" class="model-select" title="OpenRouter Free Model">
+            {% for m in free_models %}
+              <option value="{{ m }}" {% if m == default_model %}selected{% endif %}>
+                ⚡ {{ m.split('/')[-1].replace(':free', ' (Free)') }}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Portfolio Modal Trigger -->
+        <button id="portfolioBtn" class="btn btn-secondary" title="View Property Catalog">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          <span>Portfolio</span>
+        </button>
+
+        <!-- API Key Settings -->
+        <button id="settingsBtn" class="btn btn-secondary" title="API Key Settings">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          <span>Key</span>
+        </button>
+
+        <!-- VIP Booking Button -->
+        <button id="bookConsultBtn" class="btn btn-gold" title="Schedule Consultation">
+          <span>VIP Inquiry</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Chat Workspace -->
+    <main class="chat-container">
+      <div id="messagesArea" class="messages-area">
+        <!-- Hero Welcome Card -->
+        <div class="welcome-card">
+          <div class="gold-badge">RAG Knowledge Engine</div>
+          <h1>Curated Global Residences & Saudi Real Estate</h1>
+          <p>
+            Welcome to the official <strong>DarGlobal & Wasalt</strong> conversational intelligence advisor. 
+            Explore branded residences by <em>Pagani, Lamborghini, Trump Organization, Missoni</em>, 
+            and premium Saudi developments across <em>Riyadh, Jeddah, and the Eastern Province</em>.
+          </p>
+
+          <!-- Suggestion Chips -->
+          <div class="suggestions-grid">
+            <button class="chip" data-prompt="What branded residences does DarGlobal offer in Dubai?">
+              🏙️ Dubai: Pagani & Missoni Towers
+            </button>
+            <button class="chip" data-prompt="Tell me about Tierra Viva villas by Lamborghini in Marbella Spain.">
+              🏎️ Marbella: Lamborghini Villas
+            </button>
+            <button class="chip" data-prompt="What are the details of Aida clifftop resort in Oman with Trump International?">
+              ⛳ Oman: Aida Trump Golf Clifftop
+            </button>
+            <button class="chip" data-prompt="Show me prime off-plan residential communities on Wasalt in Riyadh.">
+              🇸🇦 Riyadh: Wasalt Off-Plan & Shams
+            </button>
+            <button class="chip" data-prompt="How do Wasalt Infath electronic real estate auctions work?">
+              ⚖️ Wasalt: Infath Digital Auctions
+            </button>
+            <button class="chip" data-prompt="ما هي المشاريع المتاحة في الرياض وجدة مع خطط السداد؟">
+              🇸🇦 استفسار بالعربية: مشاريع الرياض وجدة
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Bar -->
+      <footer class="input-container">
+        <form id="chatForm" class="chat-form">
+          <div class="input-wrapper">
+            <textarea
+              id="messageInput"
+              placeholder="Ask about luxury residences, pricing, amenities, Golden Visa, or Wasalt listings..."
+              rows="1"
+              required
+            ></textarea>
+            <button type="submit" id="sendBtn" class="send-btn" title="Send Message">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </div>
+        </form>
+        <div class="legal-footer">
+          <span>Powered by OpenRouter Free Tier LLMs • Data indexed from DarGlobal PLC (LSE: DAR) & Wasalt.sa (REGA)</span>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Portfolio Modal -->
+  <div id="portfolioModal" class="modal-overlay">
+    <div class="modal-content modal-large">
+      <div class="modal-header">
+        <h2>Curated Portfolio Directory</h2>
+        <button class="modal-close" id="closePortfolioBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="filter-tabs">
+          <button class="tab-btn active" data-filter="all">All Portfolios</button>
+          <button class="tab-btn" data-filter="darglobal">DarGlobal International</button>
+          <button class="tab-btn" data-filter="wasalt">Wasalt Saudi Arabia</button>
+        </div>
+        <div id="propertiesGrid" class="properties-grid">
+          <div class="loading-spinner">Loading portfolio...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- API Key Modal -->
+  <div id="settingsModal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>OpenRouter Configuration</h2>
+        <button class="modal-close" id="closeSettingsBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">
+          Enter your free <strong>OpenRouter API Key</strong> (<code>sk-or-v1-...</code>) to power live model inference. 
+          If omitted, the chatbot automatically serves verified responses grounded directly in the scraped DarGlobal & Wasalt knowledge base.
+        </p>
+        <div class="form-group">
+          <label for="openRouterKeyInput">OpenRouter API Key:</label>
+          <input
+            type="password"
+            id="openRouterKeyInput"
+            placeholder="sk-or-v1-xxxxxxxxxxxxxxxxxxxx"
+            autocomplete="off"
+          />
+        </div>
+        <div class="form-actions">
+          <button id="saveKeyBtn" class="btn btn-gold">Save Key</button>
+          <button id="clearKeyBtn" class="btn btn-secondary">Clear</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIP Consultation Modal -->
+  <div id="leadModal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Request Private VIP Consultation</h2>
+        <button class="modal-close" id="closeLeadBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">Connect with an accredited DarGlobal & Wasalt private wealth property advisor.</p>
+        <form id="leadForm">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" id="leadName" required placeholder="e.g. Lord Sterling / Sheikh Al-Mansoor" />
+          </div>
+          <div class="form-group">
+            <label>Email Address *</label>
+            <input type="email" id="leadEmail" required placeholder="investor@example.com" />
+          </div>
+          <div class="form-group">
+            <label>Phone / WhatsApp</label>
+            <input type="tel" id="leadPhone" placeholder="+971 50 123 4567 or +966 50 123 4567" />
+          </div>
+          <div class="form-group">
+            <label>Property or Destination of Interest</label>
+            <input type="text" id="leadProperty" placeholder="e.g. DaVinci Pagani Dubai, Tierra Viva Marbella, Riyadh Villas" />
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Submit Consultation Request</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

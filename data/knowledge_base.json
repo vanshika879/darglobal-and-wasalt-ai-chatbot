@@ -1,0 +1,488 @@
+{
+  "version": "1.0",
+  "total_documents": 20,
+  "documents": [
+    {
+      "id": "kb-darglobal-overview",
+      "type": "corporate_guide",
+      "title": "About DarGlobal: The World's Premier Branded Real Estate Developer",
+      "entity": "DarGlobal PLC",
+      "text": "About DarGlobal: The World's Premier Branded Real Estate Developer\nDarGlobal PLC is an international ultra-luxury real estate developer listed on the London Stock Exchange (LSE: DAR). It is the international luxury subsidiary of Dar Al Arkan, the premier Saudi Arabian real estate development group founded in 1994. DarGlobal specializes in creating bespoke trophy assets in the world's most desirable second-home and luxury destinations, including Dubai (UAE), Muscat (Oman), Marbella (Spain), Lusail (Qatar), and Shropshire (United Kingdom). DarGlobal is globally distinguished for pioneering luxury co-branding partnerships with iconic high-fashion, automotive, and hospitality maisons, including Automobili Lamborghini, Pagani Automobili, Missoni Home, Elie Saab, W Hotels (Marriott), Dolce & Gabbana, and The Trump Organization. Properties are designed for high-net-worth global investors seeking capital appreciation, prime yields, and lifestyle privileges.",
+      "metadata": {
+        "category": "Corporate Overview",
+        "tags": [
+          "darglobal",
+          "lse",
+          "luxury",
+          "developer",
+          "dubai",
+          "spain",
+          "oman",
+          "qatar",
+          "uk",
+          "pagani",
+          "lamborghini",
+          "trump"
+        ]
+      }
+    },
+    {
+      "id": "kb-wasalt-overview",
+      "type": "corporate_guide",
+      "title": "About Wasalt: Saudi Arabia's Leading PropTech Real Estate Marketplace",
+      "entity": "Wasalt",
+      "text": "About Wasalt: Saudi Arabia's Leading PropTech Real Estate Marketplace\nWasalt (wasalt.sa) is a next-generation PropTech real estate platform in the Kingdom of Saudi Arabia, established as a strategic joint venture between Dar Al Arkan and Quara Holding. Officially licensed by the Real Estate General Authority (REGA), Wasalt serves as the central digital ecosystem connecting buyers, sellers, brokers, and institutional developers. Wasalt offers comprehensive verified listings across residential villas, apartments, commercial towers, and master-planned communities in Riyadh, Jeddah, Dammam, Al Khobar, Makkah, and Medina. Key innovations include AI-driven property valuation, 3D interactive community maps, off-plan project discovery, and the official Wasalt Electronic Auctions portal, which operates in coordination with the Entrustment and Liquidation Center (Infath) for transparent judicial and corporate asset liquidations.",
+      "metadata": {
+        "category": "Corporate Overview",
+        "tags": [
+          "wasalt",
+          "saudi arabia",
+          "riyadh",
+          "jeddah",
+          "dar al arkan",
+          "quara",
+          "rega",
+          "infath",
+          "auctions",
+          "proptech",
+          "listings"
+        ]
+      }
+    },
+    {
+      "id": "kb-relationship-overview",
+      "type": "corporate_guide",
+      "title": "Synergy Between Dar Al Arkan, DarGlobal, and Wasalt",
+      "entity": "DarGlobal & Wasalt Synergy",
+      "text": "Synergy Between Dar Al Arkan, DarGlobal, and Wasalt\nDar Al Arkan Real Estate Development Company (Saudi Joint Stock Company listed on Tadawul: 4300) is the foundational parent of both DarGlobal and Wasalt. While DarGlobal focuses on international ultra-luxury trophy residences across Europe, the GCC, and UK for global high-net-worth investors, Wasalt powers the domestic Saudi real estate ecosystem and digital transaction infrastructure under Vision 2030. Wasalt features Dar Al Arkan's master developments (such as Shams Ar Riyadh, Parisiana, Al Qasr) as well as showcase listings for high-profile international collaborations like Trump Tower Jeddah.",
+      "metadata": {
+        "category": "Corporate Overview",
+        "tags": [
+          "dar al arkan",
+          "darglobal",
+          "wasalt",
+          "tadawul",
+          "vision 2030",
+          "ecosystem",
+          "real estate"
+        ]
+      }
+    },
+    {
+      "id": "dg-davinci-pagani",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "DaVinci Tower by Pagani",
+      "text": "Property Name: DaVinci Tower by Pagani\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: Pagani Automobili\nLocation: Downtown / Business Bay, Dubai, UAE, Dubai, United Arab Emirates\nCategory: Ultra-Luxury Branded Residences\nStarting Price: AED 5,500,000 (Approx: $1,500,000)\nAvailable Units: 1 Bedroom, 2 Bedroom, 3 Bedroom, 4 Bedroom Penthouse, Duplex Villas\nStatus: Under Construction / Near Completion\nOverview: DaVinci Tower is an architectural masterpiece on the Dubai Water Canal, crafted in collaboration with legendary Italian hypercar atelier Pagani. Every detail channels Leonardo da Vinci's pursuit of perfection and Pagani's carbon-fiber craftsmanship.\nKey Luxury Amenities: Rooftop infinity pool with Downtown & Burj Khalifa views, Pagani-curated bespoke interiors and carbon-fiber detailing, Private resident elevators, State-of-the-art fitness center, sauna & steam suites, 24/7 dedicated white-glove concierge, Smart home automation\nInvestment Highlights: High rental yields in Business Bay waterfront, iconic collector-grade trophy asset, capital appreciation potential.\nOfficial Link: https://darglobal.co.uk/davinci-tower-by-pagani",
+      "metadata": {
+        "name": "DaVinci Tower by Pagani",
+        "developer": "DarGlobal",
+        "brand_partner": "Pagani Automobili",
+        "country": "United Arab Emirates",
+        "city": "Dubai",
+        "price": "AED 5,500,000",
+        "price_usd": "$1,500,000",
+        "url": "https://darglobal.co.uk/davinci-tower-by-pagani",
+        "category": "Ultra-Luxury Branded Residences",
+        "amenities": [
+          "Rooftop infinity pool with Downtown & Burj Khalifa views",
+          "Pagani-curated bespoke interiors and carbon-fiber detailing",
+          "Private resident elevators",
+          "State-of-the-art fitness center, sauna & steam suites",
+          "24/7 dedicated white-glove concierge",
+          "Smart home automation"
+        ]
+      }
+    },
+    {
+      "id": "dg-tierra-viva-marbella",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "Tierra Viva by Automobili Lamborghini",
+      "text": "Property Name: Tierra Viva by Automobili Lamborghini\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: Automobili Lamborghini\nLocation: Benahavís, Marbella, Costa del Sol, Spain, Marbella / Benahavís, Spain\nCategory: Ultra-Luxury Villas\nStarting Price: EUR 4,000,000 (Approx: $4,350,000)\nAvailable Units: Diamante Villas (6 Bedrooms), Zafiro Villas (5 Bedrooms), Esmeralda Villas (4 Bedrooms)\nStatus: Under Construction\nOverview: Tierra Viva is an exclusive gated community of 53 bespoke luxury villas suspended on the cliffs of Benahavís, Marbella. Designed by DarGlobal and inspired by the sharp aerodynamic lines and power of Automobili Lamborghini.\nKey Luxury Amenities: Tiered multi-level private infinity pools, Direct Mediterranean sea and Gibraltar panoramas, Lamborghini super sports car design lines and custom interiors, Private spa, wine cellar, home cinema, and gym, Gated community with 24/7 biometric security, Private manicured rooftop gardens\nInvestment Highlights: Ultra-rare European branded villa development, prime European Golden Visa jurisdiction, strong resale value in Marbella's Golden Mile.\nOfficial Link: https://darglobal.co.uk/tierra-viva",
+      "metadata": {
+        "name": "Tierra Viva by Automobili Lamborghini",
+        "developer": "DarGlobal",
+        "brand_partner": "Automobili Lamborghini",
+        "country": "Spain",
+        "city": "Marbella / Benahavís",
+        "price": "EUR 4,000,000",
+        "price_usd": "$4,350,000",
+        "url": "https://darglobal.co.uk/tierra-viva",
+        "category": "Ultra-Luxury Villas",
+        "amenities": [
+          "Tiered multi-level private infinity pools",
+          "Direct Mediterranean sea and Gibraltar panoramas",
+          "Lamborghini super sports car design lines and custom interiors",
+          "Private spa, wine cellar, home cinema, and gym",
+          "Gated community with 24/7 biometric security",
+          "Private manicured rooftop gardens"
+        ]
+      }
+    },
+    {
+      "id": "dg-urban-oasis-missoni",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "Urban Oasis by Missoni",
+      "text": "Property Name: Urban Oasis by Missoni\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: Missoni Home\nLocation: Dubai Water Canal, Business Bay, Dubai, UAE, Dubai, United Arab Emirates\nCategory: Waterfront Branded Apartments & Penthouses\nStarting Price: AED 2,100,000 (Approx: $570,000)\nAvailable Units: Studio, 1 Bedroom, 2 Bedroom, 3 Bedroom, 4 Bedroom Penthouse\nStatus: Near Completion / Handover Phase\nOverview: Urban Oasis by Missoni is a vibrant residential tower located on the Dubai Canal. Designed by the Italian fashion house Missoni, it exudes retro-chic Italian Riviera elegance coupled with panoramic waterfront and downtown vistas.\nKey Luxury Amenities: Direct boardwalk access on Dubai Water Canal, Missoni signature vibrant color palettes and textured mosaics, Infinity swimming pool suspended over the canal, World-class gymnasium and wellness center, Covered parking and 24/7 security, Landscaped outdoor lounge decks\nInvestment Highlights: Prime canal-front location, strong short-term and long-term rental demand, exceptional Airbnb yield potential.\nOfficial Link: https://darglobal.co.uk/urban-oasis-by-missoni",
+      "metadata": {
+        "name": "Urban Oasis by Missoni",
+        "developer": "DarGlobal",
+        "brand_partner": "Missoni Home",
+        "country": "United Arab Emirates",
+        "city": "Dubai",
+        "price": "AED 2,100,000",
+        "price_usd": "$570,000",
+        "url": "https://darglobal.co.uk/urban-oasis-by-missoni",
+        "category": "Waterfront Branded Apartments & Penthouses",
+        "amenities": [
+          "Direct boardwalk access on Dubai Water Canal",
+          "Missoni signature vibrant color palettes and textured mosaics",
+          "Infinity swimming pool suspended over the canal",
+          "World-class gymnasium and wellness center",
+          "Covered parking and 24/7 security",
+          "Landscaped outdoor lounge decks"
+        ]
+      }
+    },
+    {
+      "id": "dg-aida-trump-oman",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "Aida by Trump International",
+      "text": "Property Name: Aida by Trump International\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: The Trump Organization\nLocation: Muscat, Sultanate of Oman, Muscat, Oman\nCategory: Master Clifftop Golf Resort & Branded Residences\nStarting Price: OMR 350,000 (~AED 3,300,000) (Approx: $910,000)\nAvailable Units: Fairway Villas, Trump International Cliff Villas, Trump International Hotel Suites, Marriott Residences Aida\nStatus: Phased Master Development\nOverview: Perched 100 meters above the Sea of Oman, AIDA is an iconic 3.5 million square meter master development combining dramatic natural canyon cliffs, championship golf, and the world-renowned hospitality of Trump International.\nKey Luxury Amenities: 100-meter dramatic clifftop elevation overlooking the Sea of Oman, 18-hole Trump International championship golf course, Trump International Luxury Hotel & Spa, Clifftop infinity beach club and fine dining restaurants, Hiking trails, mountain bike paths, and wellness retreats, Oman residency visa eligibility for foreign property buyers\nInvestment Highlights: Qualifies for Omani Investor Golden Visa, zero personal income tax in Oman, pristine natural haven attracting international high-net-worth tourism.\nOfficial Link: https://darglobal.co.uk/invest-in-aida",
+      "metadata": {
+        "name": "Aida by Trump International",
+        "developer": "DarGlobal",
+        "brand_partner": "The Trump Organization",
+        "country": "Oman",
+        "city": "Muscat",
+        "price": "OMR 350,000 (~AED 3,300,000)",
+        "price_usd": "$910,000",
+        "url": "https://darglobal.co.uk/invest-in-aida",
+        "category": "Master Clifftop Golf Resort & Branded Residences",
+        "amenities": [
+          "100-meter dramatic clifftop elevation overlooking the Sea of Oman",
+          "18-hole Trump International championship golf course",
+          "Trump International Luxury Hotel & Spa",
+          "Clifftop infinity beach club and fine dining restaurants",
+          "Hiking trails, mountain bike paths, and wellness retreats",
+          "Oman residency visa eligibility for foreign property buyers"
+        ]
+      }
+    },
+    {
+      "id": "dg-trump-tower-jeddah",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "Trump Tower Jeddah",
+      "text": "Property Name: Trump Tower Jeddah\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: The Trump Organization\nLocation: Jeddah Corniche / Waterfront, Saudi Arabia, Jeddah, Saudi Arabia\nCategory: Ultra-Luxury Waterfront Skyscraper\nStarting Price: SAR 6,500,000 (Approx: $1,730,000)\nAvailable Units: 2 Bedroom Branded Suites, 3 Bedroom, 4 Bedroom, Royal Sky Penthouses\nStatus: Pre-Launch / Early Development\nOverview: Marking Trump Organization's flagship entry into the Kingdom of Saudi Arabia with DarGlobal, Trump Tower Jeddah stands as a premier architectural beacon on the Red Sea, redefining luxury living for Saudi Vision 2030.\nKey Luxury Amenities: Unobstructed views of the Red Sea and Jeddah Waterfront, Exclusive Trump Members Club & executive lounges, Sky spa, hydrotherapy pools, and private cabanas, Michelin-tier fine dining and private banquet spaces, Valet service, private elevator lobbies, and round-the-clock security\nInvestment Highlights: First-of-its-kind international branded high-rise on Jeddah's Corniche, prime beneficiary of Jeddah Central development.\nOfficial Link: https://darglobal.co.uk/trump-tower-jeddah",
+      "metadata": {
+        "name": "Trump Tower Jeddah",
+        "developer": "DarGlobal",
+        "brand_partner": "The Trump Organization",
+        "country": "Saudi Arabia",
+        "city": "Jeddah",
+        "price": "SAR 6,500,000",
+        "price_usd": "$1,730,000",
+        "url": "https://darglobal.co.uk/trump-tower-jeddah",
+        "category": "Ultra-Luxury Waterfront Skyscraper",
+        "amenities": [
+          "Unobstructed views of the Red Sea and Jeddah Waterfront",
+          "Exclusive Trump Members Club & executive lounges",
+          "Sky spa, hydrotherapy pools, and private cabanas",
+          "Michelin-tier fine dining and private banquet spaces",
+          "Valet service, private elevator lobbies, and round-the-clock security"
+        ]
+      }
+    },
+    {
+      "id": "dg-w-residences-dubai",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "W Residences Dubai Harbour",
+      "text": "Property Name: W Residences Dubai Harbour\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: W Hotels / Marriott International\nLocation: Dubai Harbour, Dubai, UAE, Dubai, United Arab Emirates\nCategory: Super-Prime Waterfront Residences\nStarting Price: AED 4,200,000 (Approx: $1,140,000)\nAvailable Units: 1 Bedroom, 2 Bedroom, 3 Bedroom, 4 Bedroom Penthouse\nStatus: Under Construction\nOverview: Located at the epicenter of Dubai's maritime district, W Residences Dubai Harbour offers the daring aesthetic and magnetic energy of the W brand combined with super-yacht marina living.\nKey Luxury Amenities: Panoramic views of Palm Jumeirah, Dubai Marina, and Arabian Gulf, Exclusive W Whatever/Whenever signature concierge services, Private residents' beach club and infinity lagoon pool, Wellness center, treatment rooms, and fitness studio, Yacht docking berths at Dubai Harbour marina\nInvestment Highlights: Dubai Harbour is the largest marina in the Middle East; exceptional capital appreciation and prime global rental demand.\nOfficial Link: https://darglobal.co.uk/w-residences",
+      "metadata": {
+        "name": "W Residences Dubai Harbour",
+        "developer": "DarGlobal",
+        "brand_partner": "W Hotels / Marriott International",
+        "country": "United Arab Emirates",
+        "city": "Dubai",
+        "price": "AED 4,200,000",
+        "price_usd": "$1,140,000",
+        "url": "https://darglobal.co.uk/w-residences",
+        "category": "Super-Prime Waterfront Residences",
+        "amenities": [
+          "Panoramic views of Palm Jumeirah, Dubai Marina, and Arabian Gulf",
+          "Exclusive W Whatever/Whenever signature concierge services",
+          "Private residents' beach club and infinity lagoon pool",
+          "Wellness center, treatment rooms, and fitness studio",
+          "Yacht docking berths at Dubai Harbour marina"
+        ]
+      }
+    },
+    {
+      "id": "dg-dg1-living-dubai",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "DG1 Living",
+      "text": "Property Name: DG1 Living\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: Gensler Architects (Design)\nLocation: Business Bay, Dubai, UAE, Dubai, United Arab Emirates\nCategory: Contemporary Luxury Living\nStarting Price: AED 1,950,000 (Approx: $530,000)\nAvailable Units: 1 Bedroom, 2 Bedroom, 3 Bedroom\nStatus: Under Construction\nOverview: DG1 Living represents the inaugural self-branded architectural monument by DarGlobal, engineered in Business Bay with an avant-garde twisting architecture by international firm Gensler.\nKey Luxury Amenities: Striking dynamic twisting facade designed by Gensler, Burj Khalifa and Dubai Canal dual-aspect panoramas, Rooftop infinity sky pool, Outdoor cinema and co-working lounge spaces, Smart security access and high-speed elevators\nInvestment Highlights: Competitive entry price in Business Bay, high ROI, rapid capital appreciation in Dubai's financial corridor.\nOfficial Link: https://darglobal.co.uk/dg1",
+      "metadata": {
+        "name": "DG1 Living",
+        "developer": "DarGlobal",
+        "brand_partner": "Gensler Architects (Design)",
+        "country": "United Arab Emirates",
+        "city": "Dubai",
+        "price": "AED 1,950,000",
+        "price_usd": "$530,000",
+        "url": "https://darglobal.co.uk/dg1",
+        "category": "Contemporary Luxury Living",
+        "amenities": [
+          "Striking dynamic twisting facade designed by Gensler",
+          "Burj Khalifa and Dubai Canal dual-aspect panoramas",
+          "Rooftop infinity sky pool",
+          "Outdoor cinema and co-working lounge spaces",
+          "Smart security access and high-speed elevators"
+        ]
+      }
+    },
+    {
+      "id": "dg-les-vagues-qatar",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "Les Vagues by Elie Saab",
+      "text": "Property Name: Les Vagues by Elie Saab\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: Elie Saab\nLocation: Qetaifan Island North, Lusail, Qatar, Lusail / Doha, Qatar\nCategory: Haute Couture Seaside Residences\nStarting Price: QAR 2,800,000 (Approx: $770,000)\nAvailable Units: 1 Bedroom, 2 Bedroom, 3 Bedroom Seaside Apartments\nStatus: Under Construction\nOverview: Les Vagues by Elie Saab brings haute couture elegance to the tranquil waters of Qetaifan Island North in Qatar. Featuring bespoke furniture, expansive glass balconies, and uninterrupted maritime horizons.\nKey Luxury Amenities: Direct private beach access along the Arabian Gulf, Interiors custom-styled by Lebanese fashion icon Elie Saab, Private infinity pool and landscaped gardens, Fitness center and seaside promenade, 24/7 concierge and secure basement parking\nInvestment Highlights: First Elie Saab branded residences in Qatar; tax-free property ownership and foreign residency status.\nOfficial Link: https://darglobal.co.uk/les-vagues",
+      "metadata": {
+        "name": "Les Vagues by Elie Saab",
+        "developer": "DarGlobal",
+        "brand_partner": "Elie Saab",
+        "country": "Qatar",
+        "city": "Lusail / Doha",
+        "price": "QAR 2,800,000",
+        "price_usd": "$770,000",
+        "url": "https://darglobal.co.uk/les-vagues",
+        "category": "Haute Couture Seaside Residences",
+        "amenities": [
+          "Direct private beach access along the Arabian Gulf",
+          "Interiors custom-styled by Lebanese fashion icon Elie Saab",
+          "Private infinity pool and landscaped gardens",
+          "Fitness center and seaside promenade",
+          "24/7 concierge and secure basement parking"
+        ]
+      }
+    },
+    {
+      "id": "dg-astbury-uk",
+      "type": "property",
+      "entity": "DarGlobal",
+      "title": "The Astbury Estate",
+      "text": "Property Name: The Astbury Estate\nDeveloper: DarGlobal (International Ultra-Luxury Portfolio)\nBrand Partner: The Astbury Golf & Country Club\nLocation: Chelmarsh, Shropshire, England, UK, Shropshire, United Kingdom\nCategory: Country Golf Estate & Holiday Lodges\nStarting Price: GBP 450,000 (Approx: $580,000)\nAvailable Units: 2 Bedroom Luxury Lodges, 3 Bedroom Lakeside Barns, Private Plots\nStatus: Operational & Expanding\nOverview: The Astbury is an idyllic 300-acre English estate in Shropshire developed by DarGlobal, offering sophisticated countryside escapes with PGA-caliber golf, serene lakes, and high-spec cedar lodges.\nKey Luxury Amenities: Championship 18-hole golf course (former home to golf tournaments), 300+ rolling acres of quintessential British countryside, Fine dining clubhouse, tennis courts, and equestrian trails, Lakeside wellness spa and fly fishing, Full rental management program\nInvestment Highlights: Attractive UK staycation rental yields, no international buyer restrictions, fully managed holiday home model.\nOfficial Link: https://darglobal.co.uk/the-astbury",
+      "metadata": {
+        "name": "The Astbury Estate",
+        "developer": "DarGlobal",
+        "brand_partner": "The Astbury Golf & Country Club",
+        "country": "United Kingdom",
+        "city": "Shropshire",
+        "price": "GBP 450,000",
+        "price_usd": "$580,000",
+        "url": "https://darglobal.co.uk/the-astbury",
+        "category": "Country Golf Estate & Holiday Lodges",
+        "amenities": [
+          "Championship 18-hole golf course (former home to golf tournaments)",
+          "300+ rolling acres of quintessential British countryside",
+          "Fine dining clubhouse, tennis courts, and equestrian trails",
+          "Lakeside wellness spa and fly fishing",
+          "Full rental management program"
+        ]
+      }
+    },
+    {
+      "id": "ws-shams-ar-riyadh",
+      "type": "property",
+      "entity": "Wasalt",
+      "title": "Shams Ar Riyadh Community",
+      "text": "Property Name: Shams Ar Riyadh Community\nPlatform: Wasalt.sa (Saudi PropTech Marketplace)\nDeveloper/Provider: Dar Al Arkan (Marketed on Wasalt)\nLocation: North Riyadh, King Khalid Road, Riyadh, Saudi Arabia, Riyadh, Saudi Arabia\nCategory: Integrated Master Community & Luxury Villas\nStarting Price: SAR 2,800,000 (Approx: $745,000)\nAvailable Units: Mirabilia Versace Villas (4-6 Bedrooms), Residential Land Plots, Signature Family Townhouses\nStatus: Phased Delivery / Active Handover\nOverview: Shams Ar Riyadh is a visionary 5 million square meter master-planned development in northern Riyadh. It offers an elevated living standard with smart city infrastructure, lush natural surroundings, and branded villas by Versace Home.\nKey Amenities & Highlights: Overlooking the historic natural valley of Wadi Hanifa, Smart city fiber-optic and IoT infrastructure, Commercial district, international schools, and medical facilities, Versace Home bespoke interior design options, Pedestrian green parks, cycling trails, and community centers\nInvestment Highlights: Located in Riyadh's high-growth northern corridor, minutes from Diriyah Gate and King Abdullah Financial District (KAFD).\nOfficial Link: https://wasalt.sa/en/projects/shams-ar-riyadh",
+      "metadata": {
+        "name": "Shams Ar Riyadh Community",
+        "developer": "Dar Al Arkan (Marketed on Wasalt)",
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "price": "SAR 2,800,000",
+        "price_usd": "$745,000",
+        "url": "https://wasalt.sa/en/projects/shams-ar-riyadh",
+        "category": "Integrated Master Community & Luxury Villas",
+        "amenities": [
+          "Overlooking the historic natural valley of Wadi Hanifa",
+          "Smart city fiber-optic and IoT infrastructure",
+          "Commercial district, international schools, and medical facilities",
+          "Versace Home bespoke interior design options",
+          "Pedestrian green parks, cycling trails, and community centers"
+        ]
+      }
+    },
+    {
+      "id": "ws-parisiana-living",
+      "type": "property",
+      "entity": "Wasalt",
+      "title": "Parisiana Living Community",
+      "text": "Property Name: Parisiana Living Community\nPlatform: Wasalt.sa (Saudi PropTech Marketplace)\nDeveloper/Provider: Dar Al Arkan (Marketed on Wasalt)\nLocation: Al-Suwaidi, Riyadh, Saudi Arabia, Riyadh, Saudi Arabia\nCategory: Urban Residential Community & Family Apartments\nStarting Price: SAR 750,000 (Approx: $200,000)\nAvailable Units: 2 Bedroom Apartment, 3 Bedroom Family Apartment, 4 Bedroom Duplex\nStatus: Ready to Move In\nOverview: Parisiana Living is an established residential hub in southern Riyadh. Offering family-centric apartments and townhomes built with modern architectural finishes, convenient retail, and quick highway connections.\nKey Amenities & Highlights: Landscaped family parks and children play areas, Proximity to Al Qasr Mall and retail amenities, 24/7 security and dedicated covered parking, Easy access to King Fahd Road and Ring Road, Mosques, schools, and health centers within walking distance\nInvestment Highlights: High rental occupancy (8%+ annual gross yield), strong family tenant demand, ready title deed available.\nOfficial Link: https://wasalt.sa/en/projects/parisiana-living",
+      "metadata": {
+        "name": "Parisiana Living Community",
+        "developer": "Dar Al Arkan (Marketed on Wasalt)",
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "price": "SAR 750,000",
+        "price_usd": "$200,000",
+        "url": "https://wasalt.sa/en/projects/parisiana-living",
+        "category": "Urban Residential Community & Family Apartments",
+        "amenities": [
+          "Landscaped family parks and children play areas",
+          "Proximity to Al Qasr Mall and retail amenities",
+          "24/7 security and dedicated covered parking",
+          "Easy access to King Fahd Road and Ring Road",
+          "Mosques, schools, and health centers within walking distance"
+        ]
+      }
+    },
+    {
+      "id": "ws-al-qasr-community",
+      "type": "property",
+      "entity": "Wasalt",
+      "title": "Al Qasr Commercial & Residential Complex",
+      "text": "Property Name: Al Qasr Commercial & Residential Complex\nPlatform: Wasalt.sa (Saudi PropTech Marketplace)\nDeveloper/Provider: Dar Al Arkan (Featured on Wasalt)\nLocation: Al-Suwaidi, Southern Riyadh, Saudi Arabia, Riyadh, Saudi Arabia\nCategory: Mixed-Use Commercial & Residential\nStarting Price: SAR 820,000 (Approx: $218,000)\nAvailable Units: Office Suites, Retail Showrooms, 3-4 Bedroom Family Residences\nStatus: Ready / Operational\nOverview: Al Qasr is one of Riyadh's most expansive integrated commercial and residential master developments, providing balanced urban living alongside vibrant retail, entertainment, and enterprise offices.\nKey Amenities & Highlights: Directly connected to Al Qasr Mall (over 350 retail brands), High-speed passenger and service elevators, Central public park and recreational courtyards, Integrated facilities management and subterranean parking\nInvestment Highlights: Reliable long-term institutional and commercial tenant profile, prime retail synergy.\nOfficial Link: https://wasalt.sa/en/projects/al-qasr",
+      "metadata": {
+        "name": "Al Qasr Commercial & Residential Complex",
+        "developer": "Dar Al Arkan (Featured on Wasalt)",
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "price": "SAR 820,000",
+        "price_usd": "$218,000",
+        "url": "https://wasalt.sa/en/projects/al-qasr",
+        "category": "Mixed-Use Commercial & Residential",
+        "amenities": [
+          "Directly connected to Al Qasr Mall (over 350 retail brands)",
+          "High-speed passenger and service elevators",
+          "Central public park and recreational courtyards",
+          "Integrated facilities management and subterranean parking"
+        ]
+      }
+    },
+    {
+      "id": "ws-sedra-roshn-riyadh",
+      "type": "property",
+      "entity": "Wasalt",
+      "title": "Sedra Community by ROSHN",
+      "text": "Property Name: Sedra Community by ROSHN\nPlatform: Wasalt.sa (Saudi PropTech Marketplace)\nDeveloper/Provider: ROSHN (Public Investment Fund - Listed on Wasalt)\nLocation: North Riyadh, near Princess Nourah University, Riyadh, Riyadh, Saudi Arabia\nCategory: Salmani Architectural Master Community\nStarting Price: SAR 1,950,000 (Approx: $520,000)\nAvailable Units: 3 Bedroom Townhouse, 4 Bedroom Duplex, 5 Bedroom Standalone Villa\nStatus: Under Construction & Phased Handover\nOverview: Sedra by ROSHN is an integrated mega-community in northern Riyadh, reflecting timeless traditional Najdi/Salmani architecture with cutting-edge 21st-century sustainability and walkable living.\nKey Amenities & Highlights: Authentic Salmani architectural heritage guidelines, Green spine with extensive shaded pedestrian walkways, EV charging stations and solar lighting, Community sports centers, swimming pools, and school districts, REGA verified title and instant digital booking via Wasalt\nInvestment Highlights: PIF-backed flagship development, close to Riyadh airport expansion and Expo 2030 sites.\nOfficial Link: https://wasalt.sa/en/projects/sedra-riyadh",
+      "metadata": {
+        "name": "Sedra Community by ROSHN",
+        "developer": "ROSHN (Public Investment Fund - Listed on Wasalt)",
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "price": "SAR 1,950,000",
+        "price_usd": "$520,000",
+        "url": "https://wasalt.sa/en/projects/sedra-riyadh",
+        "category": "Salmani Architectural Master Community",
+        "amenities": [
+          "Authentic Salmani architectural heritage guidelines",
+          "Green spine with extensive shaded pedestrian walkways",
+          "EV charging stations and solar lighting",
+          "Community sports centers, swimming pools, and school districts",
+          "REGA verified title and instant digital booking via Wasalt"
+        ]
+      }
+    },
+    {
+      "id": "ws-al-malqa-luxury-penthouses",
+      "type": "property",
+      "entity": "Wasalt",
+      "title": "Al Malqa Heights Executive Apartments",
+      "text": "Property Name: Al Malqa Heights Executive Apartments\nPlatform: Wasalt.sa (Saudi PropTech Marketplace)\nDeveloper/Provider: Private Boutique Developers (Verified on Wasalt)\nLocation: Al Malqa, North Riyadh, Saudi Arabia, Riyadh, Saudi Arabia\nCategory: Luxury Urban Apartments & Penthouses\nStarting Price: SAR 1,350,000 (Approx: $360,000)\nAvailable Units: 2 Bedroom Executive, 3 Bedroom Master Suite, Rooftop Penthouse with Terrace\nStatus: Brand New / Ready for Handover\nOverview: Al Malqa is Riyadh's most sought-after northern residential quarter. These boutique residences offer sleek minimalist layouts, high ceilings, Italian porcelain tiling, and smart home lighting controls.\nKey Amenities & Highlights: Smart access cards and smart intercom, Private rooftop terraces with barbecue lounges, Assigned underground parking spots, Walking distance to gourmet restaurants on Anas Ibn Malik Road\nInvestment Highlights: Capital appreciation in Al Malqa has exceeded 20% year-on-year; highly prized by executive corporate tenants.\nOfficial Link: https://wasalt.sa/en/properties-for-sale-in-riyadh-al-malqa",
+      "metadata": {
+        "name": "Al Malqa Heights Executive Apartments",
+        "developer": "Private Boutique Developers (Verified on Wasalt)",
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "price": "SAR 1,350,000",
+        "price_usd": "$360,000",
+        "url": "https://wasalt.sa/en/properties-for-sale-in-riyadh-al-malqa",
+        "category": "Luxury Urban Apartments & Penthouses",
+        "amenities": [
+          "Smart access cards and smart intercom",
+          "Private rooftop terraces with barbecue lounges",
+          "Assigned underground parking spots",
+          "Walking distance to gourmet restaurants on Anas Ibn Malik Road"
+        ]
+      }
+    },
+    {
+      "id": "ws-obhur-waterfront-villas",
+      "type": "property",
+      "entity": "Wasalt",
+      "title": "Obhur Pearl Seaside Villas",
+      "text": "Property Name: Obhur Pearl Seaside Villas\nPlatform: Wasalt.sa (Saudi PropTech Marketplace)\nDeveloper/Provider: Coastal Real Estate Group (Listed on Wasalt)\nLocation: North Obhur, Jeddah, Saudi Arabia, Jeddah, Saudi Arabia\nCategory: Coastal Luxury Villas\nStarting Price: SAR 3,600,000 (Approx: $960,000)\nAvailable Units: 4 Bedroom Coastal Villa, 5 Bedroom Waterfront Villa with Private Mooring\nStatus: Ready to Move In\nOverview: Situated in the pristine seaside haven of North Obhur, these modern sea-breeze villas combine serene coastal tranquility with rapid accessibility to King Abdulaziz International Airport.\nKey Amenities & Highlights: Private swimming pool and courtyard patio, Internal private elevator, Maid's room, driver's quarters, and rooftop lounge, Immediate proximity to Sharm Obhur yacht clubs and beaches\nInvestment Highlights: Prime coastal retreat zone in Jeddah, high holiday and weekend rental premium.\nOfficial Link: https://wasalt.sa/en/properties-for-sale-in-jeddah-north-obhur",
+      "metadata": {
+        "name": "Obhur Pearl Seaside Villas",
+        "developer": "Coastal Real Estate Group (Listed on Wasalt)",
+        "country": "Saudi Arabia",
+        "city": "Jeddah",
+        "price": "SAR 3,600,000",
+        "price_usd": "$960,000",
+        "url": "https://wasalt.sa/en/properties-for-sale-in-jeddah-north-obhur",
+        "category": "Coastal Luxury Villas",
+        "amenities": [
+          "Private swimming pool and courtyard patio",
+          "Internal private elevator",
+          "Maid's room, driver's quarters, and rooftop lounge",
+          "Immediate proximity to Sharm Obhur yacht clubs and beaches"
+        ]
+      }
+    },
+    {
+      "id": "ws-al-khobar-corniche-tower",
+      "type": "property",
+      "entity": "Wasalt",
+      "title": "Al Khobar Azure Bay Residences",
+      "text": "Property Name: Al Khobar Azure Bay Residences\nPlatform: Wasalt.sa (Saudi PropTech Marketplace)\nDeveloper/Provider: Eastern Province Developments (Verified on Wasalt)\nLocation: Al Khobar Corniche, Eastern Province, Saudi Arabia, Al Khobar, Saudi Arabia\nCategory: Gulf-View High-Rise Apartments\nStarting Price: SAR 1,100,000 (Approx: $293,000)\nAvailable Units: 1 Bedroom, 2 Bedroom, 3 Bedroom Sea-View Apartment\nStatus: Near Handover\nOverview: Azure Bay Residences offers premium waterfront living in Al Khobar, tailored for energy-sector executives and investors seeking steady dividends in the thriving Eastern Province hub.\nKey Amenities & Highlights: Unobstructed panoramic vistas of the Arabian Gulf and King Fahd Causeway, Residents-only health club, sauna, and heated pool, Direct boardwalk access to Al Khobar Corniche cafes, Smart security access and concierge desk\nInvestment Highlights: Proximity to Saudi Aramco headquarters and Bahrain Causeway makes this a top choice for international professionals.\nOfficial Link: https://wasalt.sa/en/properties-for-sale-in-al-khobar",
+      "metadata": {
+        "name": "Al Khobar Azure Bay Residences",
+        "developer": "Eastern Province Developments (Verified on Wasalt)",
+        "country": "Saudi Arabia",
+        "city": "Al Khobar",
+        "price": "SAR 1,100,000",
+        "price_usd": "$293,000",
+        "url": "https://wasalt.sa/en/properties-for-sale-in-al-khobar",
+        "category": "Gulf-View High-Rise Apartments",
+        "amenities": [
+          "Unobstructed panoramic vistas of the Arabian Gulf and King Fahd Causeway",
+          "Residents-only health club, sauna, and heated pool",
+          "Direct boardwalk access to Al Khobar Corniche cafes",
+          "Smart security access and concierge desk"
+        ]
+      }
+    },
+    {
+      "id": "ws-auctions-infath",
+      "type": "property",
+      "entity": "Wasalt",
+      "title": "Wasalt Auctions & Infath Liquidations",
+      "text": "Property Name: Wasalt Auctions & Infath Liquidations\nPlatform: Wasalt.sa (Saudi PropTech Marketplace)\nDeveloper/Provider: Wasalt Digital Auctions / Entrustment and Liquidation Center (Infath)\nLocation: All Major Saudi Regions (Riyadh, Makkah, Eastern Province), Nationwide (KSA), Saudi Arabia\nCategory: Electronic Real Estate Auctions\nStarting Price: Variable / Auction Bidding (from SAR 500,000 to SAR 50,000,000+) (Approx: Varies by Lot)\nAvailable Units: Commercial Towers, Agricultural Land, Raw Land Parcels, Residential Buildings\nStatus: Ongoing Periodic Auctions\nOverview: Wasalt's certified digital auction portal, operated in partnership with Infath and judicial bodies, allows verified local and international investors to bid transparently on high-value distressed and judicial real estate portfolios across Saudi Arabia.\nKey Amenities & Highlights: 100% legally verified government judicial liquidation process, E-bidding system with instant escrow deposit protection, Direct transfer of REGA-certified electronic title deeds (Sak), High discount-to-market potential for institutional and private investors\nInvestment Highlights: Acquire commercial and prime residential assets often below open market valuations with ironclad legal guarantees.\nOfficial Link: https://wasalt.sa/en/auctions",
+      "metadata": {
+        "name": "Wasalt Auctions & Infath Liquidations",
+        "developer": "Wasalt Digital Auctions / Entrustment and Liquidation Center (Infath)",
+        "country": "Saudi Arabia",
+        "city": "Nationwide (KSA)",
+        "price": "Variable / Auction Bidding (from SAR 500,000 to SAR 50,000,000+)",
+        "price_usd": "Varies by Lot",
+        "url": "https://wasalt.sa/en/auctions",
+        "category": "Electronic Real Estate Auctions",
+        "amenities": [
+          "100% legally verified government judicial liquidation process",
+          "E-bidding system with instant escrow deposit protection",
+          "Direct transfer of REGA-certified electronic title deeds (Sak)",
+          "High discount-to-market potential for institutional and private investors"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+services:
+  concierge:
+    build: .
+    container_name: darglobal_wasalt_concierge
+    ports:
+      - "7860:7860"
+    environment:
+      - PORT=7860
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
+    restart: unless-stopped
