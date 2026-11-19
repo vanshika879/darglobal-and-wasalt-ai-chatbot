@@ -36,7 +36,6 @@ An applied AI conversational advisor grounded in verified public data from **Dar
 
 5. **Containerised & 1-Click Cloud Deployable**:
    - Production-ready `Dockerfile` and `docker-compose.yml`.
-   - Native support for **Hugging Face Spaces (Free Docker SDK)**, **Render**, or **Koyeb** for instant public HTTPS deployment.
 
 ---
 
