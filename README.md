@@ -1,7 +1,6 @@
 # DarGlobal & Wasalt AI Real Estate Concierge 🏛️
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![OpenRouter](https://img.shields.io/badge/OpenRouter-Free%20Tier-6366F1.svg)](https://openrouter.ai)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker&logoColor=white)](https://www.docker.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](https://opensource.org/licenses/MIT)
 
@@ -54,18 +53,7 @@ An applied AI conversational advisor grounded in verified public data from **Dar
    python -m venv venv
    source venv/bin/activate    # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
-   ```
 
-3. **Configure Environment Variables (Optional)**:
-   Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-   Add your free [OpenRouter API key](https://openrouter.ai/keys) if desired (you can also input it directly in the UI):
-   ```env
-   OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxx
-   PORT=7860
-   ```
 
 4. **Launch the application**:
    ```bash
