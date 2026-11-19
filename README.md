@@ -40,42 +40,6 @@ An applied AI conversational advisor grounded in verified public data from **Dar
 
 ---
 
-## 🏗️ Architecture
-
-```mermaid
-flowchart TD
-    subgraph Ingestion["1. Data Sourcing & Normalization"]
-        DG[darglobal.co.uk<br/>Luxury Portfolios & Sitemaps]
-        WS[wasalt.sa / cdn.wasalt.sa<br/>Saudi Listings, Sitemaps & Auctions]
-        DG --> Scraper[scrapers/scrape_darglobal.py]
-        WS --> Scraper2[scrapers/scrape_wasalt.py]
-        Scraper --> KBBuilder[scrapers/build_knowledge_base.py]
-        Scraper2 --> KBBuilder
-        KBBuilder --> KB[(data/knowledge_base.json)]
-    end
-
-    subgraph RAGCore["2. Hybrid RAG Engine"]
-        UserQuery[User Inquiry] --> Retriever[rag/vector_search.py<br/>BM25 + Entity Scorer]
-        KB --> Retriever
-        Retriever --> PromptAssembler[System Persona + Context]
-        PromptAssembler --> OpenRouterClient[rag/chatbot.py<br/>OpenRouter Free Model Cascade]
-    end
-
-    subgraph Service["3. API & Web UI"]
-        OpenRouterClient --> FastAPI[FastAPI Server :7860]
-        FastAPI --> WebUI[Luxury Obsidian & Gold Concierge]
-    end
-
-    subgraph Deployment["4. Containerization"]
-        FastAPI --> DockerImg[Docker Container]
-        DockerImg --> HFSpace[Hugging Face Spaces / Render Public URL]
-    end
-```
-
----
-
-
-
 ## 🚀 Quickstart: Running Locally
 
 ### Option 1: Standard Python
