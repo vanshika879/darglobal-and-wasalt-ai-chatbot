@@ -149,3 +149,4 @@ if __name__ == "__main__":
         print(f"\nQuery: {q}")
         for r in res:
             print(f"  -> [{r['entity']}] {r['title']} (Score: {r['relevance_score']})")
+

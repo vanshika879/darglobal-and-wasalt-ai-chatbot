@@ -8,3 +8,4 @@ services:
       - PORT=7860
       - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
     restart: unless-stopped
+

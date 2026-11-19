@@ -61,11 +61,14 @@ class LeadRequest(BaseModel):
 @app.get("/")
 async def root(request: Request):
     """Serves the main luxury concierge interface."""
-    return templates.TemplateResponse("index.html", {
-        "request": request,
-        "free_models": FREE_MODELS,
-        "default_model": FREE_MODELS[0]
-    })
+    return templates.TemplateResponse(
+        request=request,
+        name="index.html",
+        context={
+            "free_models": FREE_MODELS,
+            "default_model": FREE_MODELS[0]
+        }
+    )
 
 @app.get("/api/health")
 async def health_check():

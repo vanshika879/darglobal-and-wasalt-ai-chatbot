@@ -32,3 +32,4 @@ EXPOSE 7860
 
 # Run FastAPI app
 CMD ["python", "app.py"]
+

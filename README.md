@@ -224,3 +224,4 @@ Try submitting these prompts in the chat interface:
 
 - Developed for the **DarGlobal Junior AI Engineer – Applied AI** Technical Assessment.
 - All corporate trademarks and branding belong to **DarGlobal PLC** and **Wasalt Real Estate Platform** (Dar Al Arkan / Quara Holding).
+

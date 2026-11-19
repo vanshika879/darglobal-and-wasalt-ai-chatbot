@@ -11,7 +11,13 @@
     "price_starting": "AED 5,500,000",
     "price_currency": "AED",
     "price_usd_approx": "$1,500,000",
-    "unit_types": ["1 Bedroom", "2 Bedroom", "3 Bedroom", "4 Bedroom Penthouse", "Duplex Villas"],
+    "unit_types": [
+      "1 Bedroom",
+      "2 Bedroom",
+      "3 Bedroom",
+      "4 Bedroom Penthouse",
+      "Duplex Villas"
+    ],
     "key_amenities": [
       "Rooftop infinity pool with Downtown & Burj Khalifa views",
       "Pagani-curated bespoke interiors and carbon-fiber detailing",
@@ -23,7 +29,9 @@
     "description": "DaVinci Tower is an architectural masterpiece on the Dubai Water Canal, crafted in collaboration with legendary Italian hypercar atelier Pagani. Every detail channels Leonardo da Vinci's pursuit of perfection and Pagani's carbon-fiber craftsmanship.",
     "website_url": "https://darglobal.co.uk/davinci-tower-by-pagani",
     "completion_status": "Under Construction / Near Completion",
-    "investment_highlights": "High rental yields in Business Bay waterfront, iconic collector-grade trophy asset, capital appreciation potential."
+    "investment_highlights": "High rental yields in Business Bay waterfront, iconic collector-grade trophy asset, capital appreciation potential.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": true
   },
   {
     "id": "dg-tierra-viva-marbella",
@@ -53,7 +61,9 @@
     "description": "Tierra Viva is an exclusive gated community of 53 bespoke luxury villas suspended on the cliffs of Benahavís, Marbella. Designed by DarGlobal and inspired by the sharp aerodynamic lines and power of Automobili Lamborghini.",
     "website_url": "https://darglobal.co.uk/tierra-viva",
     "completion_status": "Under Construction",
-    "investment_highlights": "Ultra-rare European branded villa development, prime European Golden Visa jurisdiction, strong resale value in Marbella's Golden Mile."
+    "investment_highlights": "Ultra-rare European branded villa development, prime European Golden Visa jurisdiction, strong resale value in Marbella's Golden Mile.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": true
   },
   {
     "id": "dg-urban-oasis-missoni",
@@ -67,7 +77,13 @@
     "price_starting": "AED 2,100,000",
     "price_currency": "AED",
     "price_usd_approx": "$570,000",
-    "unit_types": ["Studio", "1 Bedroom", "2 Bedroom", "3 Bedroom", "4 Bedroom Penthouse"],
+    "unit_types": [
+      "Studio",
+      "1 Bedroom",
+      "2 Bedroom",
+      "3 Bedroom",
+      "4 Bedroom Penthouse"
+    ],
     "key_amenities": [
       "Direct boardwalk access on Dubai Water Canal",
       "Missoni signature vibrant color palettes and textured mosaics",
@@ -79,7 +95,9 @@
     "description": "Urban Oasis by Missoni is a vibrant residential tower located on the Dubai Canal. Designed by the Italian fashion house Missoni, it exudes retro-chic Italian Riviera elegance coupled with panoramic waterfront and downtown vistas.",
     "website_url": "https://darglobal.co.uk/urban-oasis-by-missoni",
     "completion_status": "Near Completion / Handover Phase",
-    "investment_highlights": "Prime canal-front location, strong short-term and long-term rental demand, exceptional Airbnb yield potential."
+    "investment_highlights": "Prime canal-front location, strong short-term and long-term rental demand, exceptional Airbnb yield potential.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": true
   },
   {
     "id": "dg-aida-trump-oman",
@@ -110,7 +128,9 @@
     "description": "Perched 100 meters above the Sea of Oman, AIDA is an iconic 3.5 million square meter master development combining dramatic natural canyon cliffs, championship golf, and the world-renowned hospitality of Trump International.",
     "website_url": "https://darglobal.co.uk/invest-in-aida",
     "completion_status": "Phased Master Development",
-    "investment_highlights": "Qualifies for Omani Investor Golden Visa, zero personal income tax in Oman, pristine natural haven attracting international high-net-worth tourism."
+    "investment_highlights": "Qualifies for Omani Investor Golden Visa, zero personal income tax in Oman, pristine natural haven attracting international high-net-worth tourism.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": true
   },
   {
     "id": "dg-trump-tower-jeddah",
@@ -124,7 +144,12 @@
     "price_starting": "SAR 6,500,000",
     "price_currency": "SAR",
     "price_usd_approx": "$1,730,000",
-    "unit_types": ["2 Bedroom Branded Suites", "3 Bedroom", "4 Bedroom", "Royal Sky Penthouses"],
+    "unit_types": [
+      "2 Bedroom Branded Suites",
+      "3 Bedroom",
+      "4 Bedroom",
+      "Royal Sky Penthouses"
+    ],
     "key_amenities": [
       "Unobstructed views of the Red Sea and Jeddah Waterfront",
       "Exclusive Trump Members Club & executive lounges",
@@ -135,7 +160,9 @@
     "description": "Marking Trump Organization's flagship entry into the Kingdom of Saudi Arabia with DarGlobal, Trump Tower Jeddah stands as a premier architectural beacon on the Red Sea, redefining luxury living for Saudi Vision 2030.",
     "website_url": "https://darglobal.co.uk/trump-tower-jeddah",
     "completion_status": "Pre-Launch / Early Development",
-    "investment_highlights": "First-of-its-kind international branded high-rise on Jeddah's Corniche, prime beneficiary of Jeddah Central development."
+    "investment_highlights": "First-of-its-kind international branded high-rise on Jeddah's Corniche, prime beneficiary of Jeddah Central development.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": true
   },
   {
     "id": "dg-w-residences-dubai",
@@ -149,7 +176,12 @@
     "price_starting": "AED 4,200,000",
     "price_currency": "AED",
     "price_usd_approx": "$1,140,000",
-    "unit_types": ["1 Bedroom", "2 Bedroom", "3 Bedroom", "4 Bedroom Penthouse"],
+    "unit_types": [
+      "1 Bedroom",
+      "2 Bedroom",
+      "3 Bedroom",
+      "4 Bedroom Penthouse"
+    ],
     "key_amenities": [
       "Panoramic views of Palm Jumeirah, Dubai Marina, and Arabian Gulf",
       "Exclusive W Whatever/Whenever signature concierge services",
@@ -160,7 +192,9 @@
     "description": "Located at the epicenter of Dubai's maritime district, W Residences Dubai Harbour offers the daring aesthetic and magnetic energy of the W brand combined with super-yacht marina living.",
     "website_url": "https://darglobal.co.uk/w-residences",
     "completion_status": "Under Construction",
-    "investment_highlights": "Dubai Harbour is the largest marina in the Middle East; exceptional capital appreciation and prime global rental demand."
+    "investment_highlights": "Dubai Harbour is the largest marina in the Middle East; exceptional capital appreciation and prime global rental demand.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": true
   },
   {
     "id": "dg-dg1-living-dubai",
@@ -174,7 +208,11 @@
     "price_starting": "AED 1,950,000",
     "price_currency": "AED",
     "price_usd_approx": "$530,000",
-    "unit_types": ["1 Bedroom", "2 Bedroom", "3 Bedroom"],
+    "unit_types": [
+      "1 Bedroom",
+      "2 Bedroom",
+      "3 Bedroom"
+    ],
     "key_amenities": [
       "Striking dynamic twisting facade designed by Gensler",
       "Burj Khalifa and Dubai Canal dual-aspect panoramas",
@@ -185,7 +223,9 @@
     "description": "DG1 Living represents the inaugural self-branded architectural monument by DarGlobal, engineered in Business Bay with an avant-garde twisting architecture by international firm Gensler.",
     "website_url": "https://darglobal.co.uk/dg1",
     "completion_status": "Under Construction",
-    "investment_highlights": "Competitive entry price in Business Bay, high ROI, rapid capital appreciation in Dubai's financial corridor."
+    "investment_highlights": "Competitive entry price in Business Bay, high ROI, rapid capital appreciation in Dubai's financial corridor.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": true
   },
   {
     "id": "dg-les-vagues-qatar",
@@ -199,7 +239,11 @@
     "price_starting": "QAR 2,800,000",
     "price_currency": "QAR",
     "price_usd_approx": "$770,000",
-    "unit_types": ["1 Bedroom", "2 Bedroom", "3 Bedroom Seaside Apartments"],
+    "unit_types": [
+      "1 Bedroom",
+      "2 Bedroom",
+      "3 Bedroom Seaside Apartments"
+    ],
     "key_amenities": [
       "Direct private beach access along the Arabian Gulf",
       "Interiors custom-styled by Lebanese fashion icon Elie Saab",
@@ -210,7 +254,9 @@
     "description": "Les Vagues by Elie Saab brings haute couture elegance to the tranquil waters of Qetaifan Island North in Qatar. Featuring bespoke furniture, expansive glass balconies, and uninterrupted maritime horizons.",
     "website_url": "https://darglobal.co.uk/les-vagues",
     "completion_status": "Under Construction",
-    "investment_highlights": "First Elie Saab branded residences in Qatar; tax-free property ownership and foreign residency status."
+    "investment_highlights": "First Elie Saab branded residences in Qatar; tax-free property ownership and foreign residency status.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": true
   },
   {
     "id": "dg-astbury-uk",
@@ -224,7 +270,11 @@
     "price_starting": "GBP 450,000",
     "price_currency": "GBP",
     "price_usd_approx": "$580,000",
-    "unit_types": ["2 Bedroom Luxury Lodges", "3 Bedroom Lakeside Barns", "Private Plots"],
+    "unit_types": [
+      "2 Bedroom Luxury Lodges",
+      "3 Bedroom Lakeside Barns",
+      "Private Plots"
+    ],
     "key_amenities": [
       "Championship 18-hole golf course (former home to golf tournaments)",
       "300+ rolling acres of quintessential British countryside",
@@ -235,6 +285,8 @@
     "description": "The Astbury is an idyllic 300-acre English estate in Shropshire developed by DarGlobal, offering sophisticated countryside escapes with PGA-caliber golf, serene lakes, and high-spec cedar lodges.",
     "website_url": "https://darglobal.co.uk/the-astbury",
     "completion_status": "Operational & Expanding",
-    "investment_highlights": "Attractive UK staycation rental yields, no international buyer restrictions, fully managed holiday home model."
+    "investment_highlights": "Attractive UK staycation rental yields, no international buyer restrictions, fully managed holiday home model.",
+    "source": "DarGlobal Official Portal",
+    "live_sitemap_matched": false
   }
 ]
