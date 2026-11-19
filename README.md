@@ -5,8 +5,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker&logoColor=white)](https://www.docker.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](https://opensource.org/licenses/MIT)
 
-> **Technical Assignment Submission for Junior AI Engineer – Applied AI at DarGlobal**  
-> Developed by candidate for `careers@darglobal.co.uk`
+
 
 An applied AI conversational advisor grounded in verified public data from **DarGlobal PLC** (LSE: DAR) and **Wasalt.sa** (Saudi PropTech marketplace by Dar Al Arkan & Quara). The system features an ultra-responsive RAG retrieval engine, free-tier OpenRouter LLM orchestration with resilient model failover, a branded luxury concierge UI, and production Docker containerization.
 
@@ -75,42 +74,7 @@ flowchart TD
 
 ---
 
-## 📁 Project Structure
 
-```
-darglobal-wasalt-ai-chatbot/
-│
-├── data/                                 # Indexed datasets
-│   ├── darglobal_properties.json         # Scraped DarGlobal international projects
-│   ├── wasalt_properties.json            # Scraped Wasalt Saudi marketplace data
-│   ├── knowledge_base.json               # Consolidated RAG knowledge store
-│   └── leads.json                        # Captured VIP consultation inquiries
-│
-├── scrapers/                             # Data scrapers & pipeline
-│   ├── scrape_darglobal.py               # DarGlobal portal crawler
-│   ├── scrape_wasalt.py                  # Wasalt CDN sitemap & property extractor
-│   └── build_knowledge_base.py           # Unification and indexing script
-│
-├── rag/                                  # RAG & LLM Orchestration
-│   ├── vector_search.py                  # High-speed BM25 & entity retriever
-│   └── chatbot.py                        # OpenRouter free-model cascade client
-│
-├── static/                               # Front-end UI assets
-│   ├── style.css                         # DarGlobal luxury dark/gold aesthetic
-│   └── app.js                            # Chat lifecycle, modals & portfolio
-│
-├── templates/
-│   └── index.html                        # Concierge single-page interface
-│
-├── app.py                                # FastAPI backend service
-├── Dockerfile                            # Multi-stage lightweight Docker image
-├── docker-compose.yml                    # Local multi-platform orchestration
-├── requirements.txt                      # Python dependencies
-├── .env.example                          # Environment configuration template
-└── README.md                             # Comprehensive documentation
-```
-
----
 
 ## 🚀 Quickstart: Running Locally
 
@@ -168,45 +132,6 @@ darglobal-wasalt-ai-chatbot/
 
 ---
 
-## 🌐 Deploying to Cloud & Obtaining a Live Working URL
-
-To fulfill the assignment requirement of providing a **working public URL**, deploy using any of the following free options:
-
-### Method A: Hugging Face Spaces (Recommended — 100% Free, Instant Docker Hosting)
-
-1. Create a free account at [huggingface.co](https://huggingface.co).
-2. Click **New Space** (`https://huggingface.co/new-space`).
-3. Set:
-   - **Space Name:** `darglobal-wasalt-ai-concierge`
-   - **License:** `mit`
-   - **Space SDK:** Choose **Docker** (Blank)
-   - **Public / Private:** Select **Public**
-4. Clone your new Space repository locally or push your files:
-   ```bash
-   git remote add space https://huggingface.co/spaces/<your-username>/darglobal-wasalt-ai-concierge
-   git push space main
-   ```
-5. In your Space **Settings** -> **Variables and secrets**, add:
-   - `OPENROUTER_API_KEY`: Your OpenRouter API key.
-6. Hugging Face automatically builds the `Dockerfile` on port `7860` and provisions a permanent live URL:
-   `https://<your-username>-darglobal-wasalt-ai-concierge.hf.space`
-
----
-
-### Method B: Render.com (Free Web Service)
-
-1. Create a free account at [render.com](https://render.com).
-2. Click **New +** -> **Web Service**.
-3. Connect your GitHub repository.
-4. Select **Docker** environment.
-5. Set the Environment Variable:
-   - `PORT`: `7860`
-   - `OPENROUTER_API_KEY`: `your-openrouter-key`
-6. Click **Deploy**. Render will generate a live HTTPS URL:
-   `https://darglobal-wasalt-ai.onrender.com`
-
----
-
 ## 🧪 Sample Prompts for Testing
 
 Try submitting these prompts in the chat interface:
@@ -216,7 +141,6 @@ Try submitting these prompts in the chat interface:
 - **Oman Clifftop Golf**: *"What are the investment terms and amenities of Aida by Trump International in Oman?"*
 - **Saudi Arabia Market (Wasalt)**: *"What family villa communities are available on Wasalt in northern Riyadh?"*
 - **Auctions & Commercial**: *"How does the Wasalt electronic auction platform with Infath function?"*
-- **Multilingual (Arabic)**: *"ما هي المشاريع المتاحة في الرياض وجدة مع خطط السداد وتفاصيل الأسعار؟"*
 
 ---
 
