@@ -178,26 +178,57 @@ class ChatbotEngine:
                 "Please specify a destination, branded project, or investment preference."
             )
 
-        top_doc = docs[0]
-        meta = top_doc.get("metadata", {})
-        title = top_doc.get("title", "")
-        entity = top_doc.get("entity", "")
-        price = meta.get("price", "Inquire for pricing")
-        country = meta.get("country", "")
-        city = meta.get("city", "")
-        amenities = meta.get("amenities", [])
+        response_parts = []
 
-        lines = [
-            f"### **{title}** ({entity})",
-            f"**Location:** {city}, {country}" if city else "",
-            f"**Starting Price:** {price}" if price else "",
-            "",
-            top_doc.get("text", "")[:450] + "...",
-            "",
-            "**Key Highlights & Amenities:**"
-        ]
-        for a in amenities[:4]:
-            lines.append(f"- {a}")
+        for i, doc in enumerate(docs[:3]):
+            meta = doc.get("metadata", {})
+            title = doc.get("title", "")
+            entity = doc.get("entity", "")
+            price = meta.get("price", "")
+            price_usd = meta.get("price_usd", "")
+            country = meta.get("country", "")
+            city = meta.get("city", "")
+            brand = meta.get("brand_partner", "")
+            developer = meta.get("developer", entity)
+            category = meta.get("category", "")
+            url = meta.get("url", "")
+            amenities = meta.get("amenities", [])
 
-        lines.append("\n*Would you like to schedule a private advisory consultation or view floor plans?*")
-        return "\n".join([line for line in lines if line])
+            block = []
+            block.append(f"### 🏛️ {title}")
+
+            if brand:
+                block.append(f"| | |")
+                block.append(f"|---|---|")
+                block.append(f"| **Developer** | {developer} |")
+                block.append(f"| **Brand Partner** | {brand} |")
+                block.append(f"| **Location** | {city}, {country} |")
+                if category:
+                    block.append(f"| **Category** | {category} |")
+                if price:
+                    usd = f" *(≈ {price_usd})*" if price_usd else ""
+                    block.append(f"| **Starting Price** | {price}{usd} |")
+            else:
+                block.append(f"| | |")
+                block.append(f"|---|---|")
+                block.append(f"| **Developer** | {developer} |")
+                block.append(f"| **Location** | {city}, {country} |")
+                if category:
+                    block.append(f"| **Category** | {category} |")
+                if price:
+                    usd = f" *(≈ {price_usd})*" if price_usd else ""
+                    block.append(f"| **Starting Price** | {price}{usd} |")
+
+            if amenities:
+                block.append(f"\n**✨ Key Amenities:**")
+                for a in amenities[:4]:
+                    block.append(f"- {a}")
+
+            if url:
+                block.append(f"\n🔗 [View Official Listing]({url})")
+
+            response_parts.append("\n".join(block))
+
+        response = "\n\n---\n\n".join(response_parts)
+        response += "\n\n---\n\n*Would you like to schedule a private advisory consultation or receive an official brochure?*"
+        return response
